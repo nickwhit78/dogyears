@@ -1,0 +1,19 @@
+// my current age
+const myAge = 44;
+//first 2 years of dogs life
+var earlyYears = 2;
+
+earlyYears = earlyYears * 10.5;
+// account for removing first 2 years
+var laterYears = myAge - 2;
+// account for number of dog years after 2 years
+laterYears *=4;
+
+//console.log(earlyYears);
+//console.log(laterYears);
+//adding early years and later years
+var myAgeInDogYears = earlyYears + laterYears;
+//change my name into lower case
+var myName = 'Nick'.toLowerCase();
+// print string with values of my age and age in dog years
+console.log('my name is ' + myName +'.  I am ' + myAge +' years old in human years which is ' + myAgeInDogYears + ' years old in dog years.');
